@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuyerAct"
+    android:orientation="vertical"
+    android:background="@drawable/normalback">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:padding="20dp"
+        android:text="Buyer Dashboard"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/btn_veg"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Vegetables"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/btn_fruit"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Fruits"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/btn_map"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Farmers in your area"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/btn_payments"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Payments"
+            android:textSize="20sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:padding="20sp">
+
+        <Button
+            android:id="@+id/btn_back_buyer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Back" />
+
+    </LinearLayout>
+
+</LinearLayout>
